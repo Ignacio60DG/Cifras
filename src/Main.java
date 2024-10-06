@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Pon un numero y te dirá las cifras que tienes y no te pases de cifras...");
+        System.out.println("No te diré ni una cifra");
 
         Scanner sc = new Scanner(System.in);
 
@@ -14,19 +14,19 @@ public class Main {
         sc.close();
 
         if (number>0 && number<9) {
-            System.out.println("Una cifra");
+            System.out.println("cifra");
         } else if (number>10 && number<99) {
-            System.out.println("Dos cifras");
+            System.out.println("cifras");
         } else if (number>100 && number<999) {
-            System.out.println("Tres cifras");
+            System.out.println("cifrass");
         } else if (number>1000 && number<9999) {
-            System.out.println("Cuatro cifras");
+            System.out.println("cifrasss");
         } else if (number>10000 && number<99999) {
-            System.out.println("Cinco cifras");
+            System.out.println("cifrassss");
         } else if (number>100000) {
-            System.out.println("Tiene más de cuatro cifras");
+            System.out.println("cifrassss+");
         }else{
-            System.out.println("No trabajamos con numeros negativos");
+            System.out.println("No trabajamos cifra-");
         }
     }
 }
